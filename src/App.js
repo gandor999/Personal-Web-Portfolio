@@ -1,25 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import { Menu } from 'antd';
+import { MailOutlined, AppstoreOutlined, SettingOutlined, HomeOutlined, QuestionOutlined, AlertOutlined   } from '@ant-design/icons';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+      <div >
+        <div>
+          <Menu  mode="horizontal" className="justify-content-center">
+            <Menu.Item key="mail" icon={<HomeOutlined style={{ display: 'inline-block', verticalAlign: 'middle' }} />}>
+              Home
+            </Menu.Item>
+            <Menu.Item key="app" icon={<QuestionOutlined  />}>
+              About Me
+            </Menu.Item>
+            
+            <Menu.Item key="app" icon={<AlertOutlined   />}>
+              Projects
+            </Menu.Item>
+          </Menu>
+        </div>
+
+        <header className="page-cloud-bg">
+          
+        </header>
+        
+      </div>
+      
+    
   );
 }
 
 export default App;
+ 
