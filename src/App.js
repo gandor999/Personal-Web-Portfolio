@@ -1,34 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
 import { Menu } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined, HomeOutlined, QuestionOutlined, AlertOutlined   } from '@ant-design/icons';
+import { MailOutlined, AppstoreOutlined, SettingOutlined, HomeOutlined, QuestionOutlined, AlertOutlined  } from '@ant-design/icons';
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects'
+import NavBar from './components/NavBar';
+import { Container } from 'react-bootstrap';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
 
-      <div >
-        <div>
-          <Menu  mode="horizontal" className="justify-content-center">
-            <Menu.Item key="mail" icon={<HomeOutlined style={{ display: 'inline-block', verticalAlign: 'middle' }} />}>
-              Home
-            </Menu.Item>
-            <Menu.Item key="app" icon={<QuestionOutlined  />}>
-              About Me
-            </Menu.Item>
-            
-            <Menu.Item key="app" icon={<AlertOutlined   />}>
-              Projects
-            </Menu.Item>
-          </Menu>
-        </div>
-
-        <header className="page-cloud-bg">
-          
-        </header>
-        
-      </div>
-      
-    
+      <Router>
+          <NavBar />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/aboutme" element={<About />} />
+            <Route exact path="/projects" element={<Projects />} />
+          </Routes>
+      </Router>
+     
   );
 }
 

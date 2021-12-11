@@ -8,8 +8,42 @@
   display: flex;
 }
 
-.menu {
-  text-align: center;
+.page-water-bg {
+  background-image: url("./images/night.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  min-height: 100vh;
+  display: flex;
 }
 
+.page-coconut-bg {
+  background-image: url("./images/tree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  min-height: 100vh;
+  display: flex;
+}
+
+.about-header {
+  padding-bottom: 110px;
+}
+
+.menu {
+  max-height: 0;
+}
+
+.hello {
+  padding-bottom: 70px;
+}
+
+
+.font-link {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.welcome {
+  padding-right: 20px;
+}
 
