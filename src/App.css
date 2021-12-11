@@ -1,3 +1,7 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
 .page-cloud-bg {
   background-image: url("./images/clouds.jpg");
@@ -12,13 +16,12 @@
   background-image: url("./images/night.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #cccccc;
   min-height: 100vh;
   display: flex;
 }
 
 .page-coconut-bg {
-  background-image: url("./images/tree.jpg");
+  background-image: url("./images/westerntree.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #cccccc;
@@ -26,24 +29,132 @@
   display: flex;
 }
 
-.about-header {
+/*.about-header {
   padding-bottom: 110px;
-}
+}*/
 
-.menu {
-  max-height: 0;
-}
 
-.hello {
+/*.hello {
   padding-bottom: 70px;
-}
+}*/
 
 
 .font-link {
   font-family: 'Montserrat', sans-serif;
 }
 
-.welcome {
-  padding-right: 20px;
+
+#welcome-wrapper {
+  background-color: #EDAE49;
+  padding-top: 0.46rem;
+  /*width: 60vw;*/
+  width: 13em;
 }
+
+.projects-header-wrapper {
+  background-color: #2EC4B6;
+  
+  width: 10rem;
+
+}
+
+.projects-header-wrapper h1 {
+  color: #A5402D;
+}
+
+
+.card-width {
+  max-width: 35rem;
+}
+
+
+/* Galaxy Fold */
+@media (min-width: 280px){  
+  .home-text {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .nav-text {
+    font-size: .7em;
+  }
+} @media (max-width: 600px){  
+  .about-section-level {
+    font-size: 9px;
+  }
+}
+
+
+
+/* iPad */
+@media (min-width: 768px){  
+  .home-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .nav-text {
+    font-size: 1em;
+  }
+
+  #welcome-wrapper {
+    background-color: #EDAE49;
+    padding-top: 0.46rem;
+    /*width: 60vw;*/
+    width: 19rem;
+  }
+
+}
+
+
+/* iPad Pro */
+@media (min-width: 1024px){  
+  .home-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .nav-text {
+    font-size: 1em;
+  }
+
+  #welcome-wrapper {
+    background-color: #EDAE49;
+    padding-top: 0.46rem;
+    /*width: 60vw;*/
+    width: 19rem;
+  }
+
+  .projects-header-wrapper {
+    width: 13rem;
+
+  }
+}
+
+
+
+/**/
+
+
+/* Laptop 1440 */
+@media (min-width: 1440px){  
+  .home-text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .nav-text {
+    font-size: 1em;
+  }
+
+  #welcome-wrapper {
+    background-color: #EDAE49;
+    padding-top: 0.46rem;
+    /*width: 60vw;*/
+    width: 20rem;
+  }
+
+
+}
+
 
