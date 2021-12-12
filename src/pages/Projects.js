@@ -21,33 +21,43 @@ export default function Projects(){
 					<Row>
 						<Col md={6} className="p-3 d-flex justify-content-center">
 							<Card className="card-width h-100 p-1">
-							  <Card.Img variant="top" src={responsiveWeb} />
+							  <a href="https://gandor999.github.io/webportfolio/" target="_blank"><Card.Img variant="top" src={responsiveWeb} />
+							  </a>
 							  <Card.Body className="d-flex flex-column">
 							    <Card.Title className="text-center">Static Responsive Website</Card.Title>
 							    <Card.Text>
 							      This is the first website project I made with Bootstrap, CSS, and HTML.
 							    </Card.Text>
-							    <Button variant="primary" className=" mt-auto">Take a look!</Button>
+							    <a href="https://gandor999.github.io/webportfolio/" target="_blank" className=" mt-auto">
+							    	<Button variant="primary" className="w-100">Take a look!</Button>
+							    </a>
+							    
 							  </Card.Body>
 							</Card>
 						</Col>
 
 						<Col md={6} className="p-3 d-flex justify-content-center">
 							<Card className="card-width h-100 p-1">
-							  <Card.Img variant="top" src={eCommerceAPI} />
+							  <a href="https://github.com/gandor999/eCommerce-API/tree/master" target="_blank">
+							  	<Card.Img variant="top" src={eCommerceAPI} />
+							  </a>
 							  <Card.Body className="d-flex flex-column">
 							    <Card.Title className="text-center">eCommerce API</Card.Title>
 							    <Card.Text>
 							      This API was made using Node, Express, and Mongoose. The database used was MongoDB Atlas so this is a NoSql DB. 
 							    </Card.Text>
-							    <Button variant="primary" className=" mt-auto">Read the code</Button>
+							    <a href="https://github.com/gandor999/eCommerce-API/tree/master" target="_blank" className="mt-auto">
+							    	<Button variant="primary" className="w-100">Read the code</Button>
+							    </a>
 							  </Card.Body>
 							</Card>
 						</Col>
 
 						<Col md={6} className="p-3 d-flex justify-content-center">
 							<Card className="card-width h-100 p-1">
-							  <Card.Img variant="top" src={eCommerceReact} />
+							  <a href="https://ecommerce-client-chi.vercel.app/" target="_blank">
+							  	<Card.Img variant="top" src={eCommerceReact} />
+							  </a>
 							  <Card.Body className="d-flex flex-column">
 							    <Card.Title className="text-center">eCommerce Simulation Website</Card.Title>
 							    <Card.Text>
@@ -55,20 +65,26 @@ export default function Projects(){
 
 							      It simulates a simple eCommerce website.
 							    </Card.Text>
-							    <Button variant="primary" className=" mt-auto">Add to Cart!</Button>
+							    <a href="https://ecommerce-client-chi.vercel.app/" className="mt-auto" target="_blank">
+							    	<Button variant="primary" className="w-100">Add to Cart!</Button>
+							    </a>
 							  </Card.Body>
 							</Card>
 						</Col>
 
 						<Col md={6} className="p-3 d-flex justify-content-center">
 							<Card className="card-width h-100 p-1">
-							  <Card.Img variant="top" src={TicTacToe} />
+							  <a href="https://tic-tac-toe-ten-beryl.vercel.app/" target="_blank">	
+							  	<Card.Img variant="top" src={TicTacToe} />
+							  </a>
 							  <Card.Body className="d-flex flex-column">
 							    <Card.Title className="text-center">Tic Tac Toe</Card.Title>
 							    <Card.Text>
 							      This is a tic tac toe game made with React.
 							    </Card.Text>
-							    <Button variant="primary" className=" mt-auto">Play!</Button>
+							    <a href="https://tic-tac-toe-ten-beryl.vercel.app/" className="mt-auto" target="_blank">
+							    	<Button variant="primary" className="w-100">Play!</Button>
+							    </a>
 							  </Card.Body>
 							</Card>
 						</Col>

@@ -54,7 +54,7 @@
 .projects-header-wrapper {
   background-color: #2EC4B6;
   
-  width: 10rem;
+  width: 12rem;
 
 }
 
@@ -65,6 +65,10 @@
 
 .card-width {
   max-width: 35rem;
+}
+
+img {
+  cursor: pointer;
 }
 
 
@@ -104,6 +108,11 @@
     width: 19rem;
   }
 
+  .projects-header-wrapper {
+    width: 13rem;
+
+  }
+
 }
 
 
@@ -126,7 +135,7 @@
   }
 
   .projects-header-wrapper {
-    width: 13rem;
+    width: 14rem;
 
   }
 }
