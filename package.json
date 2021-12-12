@@ -3,8 +3,6 @@
   "name": "web-portfolio",
   "version": "0.1.0",
   "private": true,
-  
-
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
@@ -44,5 +42,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gandor999/personal-web-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gandor999/personal-web-portfolio/issues"
+  },
+  "description": ""
 }
