@@ -22,7 +22,7 @@ export default function Home() {
           </section>
           
           <section className="mt-4 home-text p-4">
-            <p>Take a look at the stuff he's done <Link to="/projects" className="text-dark">here</Link> or about <Link to="/aboutme" className="text-dark">him</Link></p>
+            <p>Take a look at the stuff he's done <Link to="/personal-web-portfolio/projects" className="text-dark">here</Link> or about <Link to="/personal-web-portfolio/aboutme" className="text-dark">him</Link></p>
           </section>
         </header>  
       </div>
