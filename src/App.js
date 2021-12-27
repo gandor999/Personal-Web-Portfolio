@@ -22,7 +22,7 @@ function App() {
 
   const location = useLocation()
 
-  const transitions = useTransition(location, {
+  const transitions = useTransition(location, {    //Got this from a codesandbox
     from: { opacity: 0, transform: 'scale(0.9)' },
     enter: { opacity: 1, transform: 'scale(1)'},
     leave: { opacity: 0, transform: 'scale(0.9)' },
