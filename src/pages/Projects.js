@@ -62,14 +62,14 @@ export default function Projects(){
 								style={{transform: props1.xys.interpolate(trans)}}
 							>
 								<Card className="card-width h-100 p-1">
-								  <a href="https://gandor999.github.io/webportfolio/" target="_blank"><Card.Img variant="top" src={responsiveWeb} />
+								  <a href="https://gandor999.github.io/static-responsive-webstie/" target="_blank"><Card.Img variant="top" src={responsiveWeb} />
 								  </a>
 								  <Card.Body className="d-flex flex-column">
 								    <Card.Title className="text-center">Static Responsive Website</Card.Title>
 								    <Card.Text>
 								      This is the first website project I made with Bootstrap, CSS, and HTML.
 								    </Card.Text>
-								    <a href="https://gandor999.github.io/webportfolio/" target="_blank" className=" mt-auto">
+								    <a href="https://gandor999.github.io/static-responsive-webstie/" target="_blank" className=" mt-auto">
 								    	<Button variant="primary" className="w-100">Take a look!</Button>
 								    </a> 
 								  </Card.Body>
