@@ -3,30 +3,41 @@
   margin: 0px;
 }
 
+.routes {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
 .page-cloud-bg {
   background-image: url("./images/clouds.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #cccccc;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
+  margin-top: 2rem;
 }
 
 .page-water-bg {
   background-image: url("./images/night.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
+  margin-top: 2rem;
 }
 
 .page-coconut-bg {
-  background-image: url("./images/westerntree.jpg");
-  background-repeat: no-repeat;
+ 
   background-size: cover;
-  background-color: #cccccc;
+  background-color: #353535;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
+  margin-top: 2rem;
 }
 
 /*.about-header {
@@ -37,6 +48,11 @@
 /*.hello {
   padding-bottom: 70px;
 }*/
+
+.menu {
+  position: sticky;
+  top: 0;
+}
 
 
 .font-link {
@@ -52,14 +68,14 @@
 }
 
 .projects-header-wrapper {
-  background-color: #2EC4B6;
+  background-color: #C38D94;
   
-  width: 12rem;
+  width: 9rem;
 
 }
 
 .projects-header-wrapper h1 {
-  color: #A5402D;
+  color: #353535;
 }
 
 
@@ -109,7 +125,7 @@ img {
   }
 
   .projects-header-wrapper {
-    width: 13rem;
+    width: 11rem;
 
   }
 
@@ -135,7 +151,7 @@ img {
   }
 
   .projects-header-wrapper {
-    width: 14rem;
+    width: 12rem;
 
   }
 }
